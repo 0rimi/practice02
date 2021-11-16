@@ -22,13 +22,13 @@ public class Ex12 {
 		switch (cha) {
 		case "+":
 			System.out.println("결과는: "+(num1+num2));
-		break;
+			break;
 		case "-":
 			System.out.println("결과는: "+(num1-num2));
-		break;
+			break;
 		case "*":
 			System.out.println("결과는: "+(num1*num2));
-		break;
+			break;
 		case "/":
 			if (num2==0) {
 				System.out.println("계산할 수 없습니다.");
@@ -36,10 +36,10 @@ public class Ex12 {
 			else {
 			System.out.println("결과는: "+(num1/num2));
 			};
-		break;
+			break;
 		default:
 			System.out.println("계산할 수 없는 기호입니다.");
-		break;
+			break;
 		}
 		
 		sc.close();
